@@ -12,7 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 var paths = {
-    'bootstrap': './bower_components/bootstrap-sass/assets/'
+    'bootstrap': './node_modules/bootstrap-sass/assets/'
 }
 
 

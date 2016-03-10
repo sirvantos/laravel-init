@@ -1,6 +1,4 @@
 /vendor
-/public/css
-/public/js
 /node_modules
 /bower_components
 /.idea

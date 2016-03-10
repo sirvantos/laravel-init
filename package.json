@@ -6,7 +6,7 @@
     "laravel-elixir-stylus": "^1.0.1",
     "vue-resource": "^0.1.6",
     "vue-router": "^0.7.1",
-    "vue@csp": "^3.4.0",
+    "vue": "^1.0.17-csp",
     "vueify": "^1.1.5"
   },
   "dependencies": {
