@@ -18164,7 +18164,7 @@ module.exports = {
     template: require('../views/about.template.html'),
 
     ready: function ready() {
-        this.$parent.pageTitlePostfix = 'about';
+        this.$parent.pageTitlePostfix = 'About';
     }
 };
 
