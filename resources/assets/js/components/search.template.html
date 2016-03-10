@@ -1,0 +1,15 @@
+<form class="navbar-form" role="search" id="search-bar">
+	<div class="form-group">
+		<div class="input-group">
+			<input
+					id="search-movie"
+					type="text"
+					class="form-control typeahead"
+					placeholder="Search movie"
+					v-model="query"
+					@keypress.enter="showResult"
+					style="width: 100%"
+			>
+		</div>
+	</div>
+</form>

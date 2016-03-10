@@ -1,0 +1,9 @@
+/vendor
+/public/css
+/public/js
+/node_modules
+/bower_components
+/.idea
+.env
+.env.behat
+_ide_helper.php

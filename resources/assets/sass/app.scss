@@ -1,0 +1,70 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "_bootstrap-mincer";
+
+@import "_bootstrap";
+
+
+body { padding-top: 70px; }
+
+a {
+  text-decoration: none;
+}
+
+div.movie-tab {
+  background: #EFEFEF;
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;
+
+  div.movie-tab-header {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+form#search-bar {
+  .form-group {
+    display:inline-block;
+    width:80%;
+
+    .input-group {
+      width:100%;
+    }
+  }
+}
+
+ul.movies {
+  padding: 20px 0px 0px 0px;
+
+  div.thumbnail {
+    padding: 5px 5px 5px 5px;
+    height: 470px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  div.thumbnail-image {
+    img.img-responsive {
+      margin: 0 auto;
+    }
+  }
+
+  div.more {
+    text-align: right;
+  }
+
+  li {
+    .caption {
+      font-weight: bold;
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+  }
+}
